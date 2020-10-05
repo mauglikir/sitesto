@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-    
+    <h1>Hello World!</h1>
+    <stoMainContent></stoMainContent>
   </div>
 </template>
 
 <script>
-
+import stoMainContent from './components/content-sto'
 
 export default {
   name: 'App',
   components: {
+    stoMainContent
   }
 }
 </script>
